@@ -2,7 +2,6 @@ import Carousel from "@/components/Carousel";
 import TeamCardUser from "./_components/TeamCard";
 
 const AboutPage = () => {
-
   return (
     <div className="playfair-display-400 text-justify">
       <h2 className="bg-[#c8b97e] text-white m-auto text-center text-3xl font-bold py-8 px-8 md:px-32">
@@ -11,12 +10,7 @@ const AboutPage = () => {
       <div>
         {" "}
         <Carousel
-          images={[
-            "/img1.avif",
-            "/img2.avif",
-            "/img3.avif",
-            "/img4.jpeg",
-          ]}
+          images={["/img1.avif", "/img2.avif", "/img3.avif", "/img4.jpeg"]}
         />
       </div>
       <p className="text-[18px] pt-4 px-8 md:px-32">
@@ -69,29 +63,6 @@ const AboutPage = () => {
         title="Client Relations"
         description="The warm and welcoming face of Amber & Co, building strong relationships with clients and guiding them through the selection process. She also possesses a deep knowledge of gemstones, ensuring that each client finds the perfect piece to match their unique style and personality."
       />
-      {/* {teams.map((team) => (
-        <div className="grid md:grid-cols-2 px-8 md:px-16 pt-8">
-          <div>
-            <Image
-              src="/jewelry.avif"
-              alt={team.name}
-              width={300}
-              height={300}
-              className="rounded-lg justify-self-center mr-4"
-            />
-            <br />
-          </div>
-          <div className="md:pr-16">
-            <h4 className="font-bold text-xl pb-4 text-left">
-              {team.name}
-              <br />
-              {team.role}
-            </h4>
-            <p className="text-[16px]">{team.description}</p>
-            <br />
-          </div>
-        </div> */}
-      {/* ))} */}
     </div>
   );
 };
