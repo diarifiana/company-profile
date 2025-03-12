@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-center bg-no-repeat bg-[url('/jewelry.avif')] bg-gray-700 bg-blend-multiply">
+    <section className="bg-center bg-no-repeat bg-[url('/jewelry.avif')] bg-gray-700 bg-blend-multiply ">
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
           Amber & Co.
@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
           <a
             href="/products"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-blue-300 "
           >
             Our products
             <svg

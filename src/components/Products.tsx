@@ -31,12 +31,12 @@ const Products = () => {
   ];
 
   return (
-    <main className="py-8">
+    <main className="py-8 bg-white text-black">
       <h2 className="text-3xl font-bold m-auto text-center">Our Products</h2>
       <div className="grid md:grid-cols-4 p-8 gap-8 justify-self-center">
         {products.map((product) => (
           <div
-            className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm "
             key={product.id}
           >
             <a href="#">
@@ -51,7 +51,7 @@ const Products = () => {
 
             <div className="px-5 py-5">
               <a href="#">
-                <h5 className="text-xl font-bold tracking-tight text-black dark:text-white">
+                <h5 className="text-xl font-bold tracking-tight text-black ">
                   {product.name}
                 </h5>
               </a>
@@ -94,7 +94,7 @@ const Products = () => {
                     <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                   </svg>
                   <svg
-                    className="w-4 h-4 text-gray-200 dark:text-gray-600"
+                    className="w-4 h-4 text-gray-200 "
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -103,17 +103,17 @@ const Products = () => {
                     <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                   </svg>
                 </div>
-                <span className="bg-[#c8b97e] text-white text-xs font-semibold px-2.5 py-0.5 rounded-sm dark:bg-blue-200 dark:text-blue-800 ms-3">
+                <span className="bg-[#c8b97e] text-white text-xs font-semibold px-2.5 py-0.5 rounded-sm  ms-3">
                   {product.review}
                 </span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-sm font-bold text-black dark:text-white">
+                <span className="text-sm font-bold text-black ">
                   {product.price}
                 </span>
                 <a
                   href="/"
-                  className="text-white bg-[#c8b97e] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="text-white bg-[#c8b97e] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
                 >
                   Add to cart
                 </a>

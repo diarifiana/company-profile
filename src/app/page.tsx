@@ -3,7 +3,7 @@ import Products from "@/components/Products";
 import Testimonials from "@/components/Testimonials";
 
 const AboutUsText = () => (
-  <div className="p-8 md:px-32 text-lg text-justify">
+  <div className="p-8 md:px-32 text-lg text-justify bg-white max-w-screen-xl text-black mx-auto">
     <p>
       Inspired by the beauty of Yogyakarta,{" "}
       <span className="font-bold">Amber & Co </span>was established in 2010.

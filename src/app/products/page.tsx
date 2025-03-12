@@ -58,11 +58,11 @@ const ProductPage = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 playfair-display-400">
+    <div className="container px-4 py-8 playfair-display-400 mx-auto bg-white">
       <h2 className="text-3xl font-bold text-center pb-8 text-[#c8b97e]">
         Our Products
       </h2>
-      <div>
+      <div className="bg-white">
         {/* Image Gallery */}
         <div className="space-y-4">
           {products.map((product) => (

@@ -65,7 +65,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   };
 
   return (
-    <div className="w-screen relative overflow-hidden max-h-[500px]">
+    <div className="mx-auto max-w-screen-xl w-screen relative overflow-hidden max-h-[500px]">
       <div
         ref={carouselRef}
         className="flex transition-transform duration-500 ease-in-out"

@@ -16,7 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Amber & Co",
-  description: "Sustainable and ethically sourced jewelry that embodies beauty, responsibility, and enduring value",
+  description:
+    "Sustainable and ethically sourced jewelry that embodies beauty, responsibility, and enduring value",
 };
 
 export default function RootLayout({
